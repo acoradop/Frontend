@@ -1,0 +1,137 @@
+.button6-container {
+    display: flex;
+    justify-content: center; /* Centrar los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    background-color: #DAD3BE; /* Color de fondo del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    width: 300px; /* Ancho del contenedor */
+    height: 60px; /* Alto del contenedor */
+    overflow: auto; /* Añadir scroll si hay más contenido */
+    border-radius: 5px;
+  }
+  
+  .button6 {
+    width: 50px; /* Ancho del botón */
+    height: 60px; /* Alto del botón */
+    background-color: #B7B597; /* Color de fondo del botón */
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button6 img {
+    width: 30px; /* Tamaño de la imagen */
+    height: 30px; /* Tamaño de la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .button6:hover {
+    background-color: #A0937D; /* Cambio de color al pasar el ratón */
+  }
+  
+  
+/* Estilo para el div vacío */
+.empty {
+  width: 100%;
+  height: 15px; /* Altura delgada */
+  background-color: #DAD3BE; /* Color de fondo */
+  margin: 20px 0; /* Espaciado superior e inferior */
+  font-size: 10px;
+}
+
+.empty p {
+  color: #000000; /* Color del texto */
+  margin: 0; /* Eliminar margen por defecto */
+  padding: 0; /* Eliminar padding por defecto */
+  line-height: 15px; /* Alineación vertical del texto */
+}
+
+
+/* Estilo para el formulario */
+.formulario {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #F1EEDC;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row; /* Alinea los elementos en una fila */
+  flex-wrap: wrap; /* Permite que los elementos envuelvan a la siguiente línea si es necesario */
+  justify-content: space-between; /* Distribuye los elementos horizontalmente */
+}
+
+form label {
+  flex: 1; /* Permite que los elementos se expandan uniformemente */
+  display: flex;
+  flex-direction: column; /* Coloca el label encima del input */
+  margin-right: 25px; /* Espaciado entre elementos */
+  margin-bottom: 10px; /* Espaciado entre filas */
+}
+
+form label input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background-color: #EADBC8;
+  border-radius: 4px;
+}
+
+
+.radio-label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.radio-label input[type="radio"] {
+  margin-right: 5px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-group:last-child {
+    margin-right: 0;
+  }
+  
+  .textarea {
+    width: 100%;
+    height: 100px; /* Ajusta según sea necesario */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #EADBC8;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+.vertical-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaciado entre los inputs */
+}
+
+label input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background-color: #EADBC8;
+  border-radius: 4px;
+}

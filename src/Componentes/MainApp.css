@@ -1,0 +1,96 @@
+/* Estilo del contenedor principal */
+.main-app {
+  display: flex;
+  min-height: 100vh; /* Altura mínima igual a la altura del viewport */
+  width: 100%; /* Ancho del contenedor principal */
+  background-color: #F1EEDC; /* Color de fondo */
+}
+
+/* Estilo de la barra lateral vertical */
+.vertical-nav {
+  width: 263px; /* Ancho de la barra lateral */
+  background-color: #AFD3E2;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Estilos para la lista en la barra lateral */
+.vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-nav ul li {
+  margin-bottom: 10px;
+}
+
+.vertical-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilo del contenido principal */
+.main-content {
+ /* flex: 1; /* El contenido principal ocupa el espacio restante */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Asegura que el contenido se ajuste correctamente */
+}
+
+/* Estilo de los enlaces activos en la barra lateral */
+.vertical-nav a.active {
+  font-weight: bold;
+}
+
+/* Estilo del logo */
+.logo {
+  width: 100%; /* Ancho del logo al 100% del contenedor */
+  max-height: 125px; /* Altura máxima del logo */
+  object-fit: contain; /* Ajusta el tamaño manteniendo la proporción */
+}
+
+/* Estilo base del botón */
+.btn {
+  display: block; /* Cambia a bloque para ocupar el ancho completo */
+  width: 100%; /* Ancho completo del contenedor padre */
+  padding: 10px 10px;
+  background-color: #B3C8CF; /* Color de fondo del botón */
+  color: black; /* Color del texto en estado normal */
+  text-decoration: none; /* Quita la subrayado del enlace */
+  border: none; /* Quita el borde */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 4px; /* Borde redondeado */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave para el color de fondo y texto */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.btn:hover {
+  background-color: #686D76; /* Cambia el color de fondo al pasar el mouse */
+  color: black; /* Mantén el color del texto al pasar el mouse */
+}
+
+/* Estilo base del enlace de navegación */
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  width: 100%; /* Ancho completo del contenedor padre */
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #B3C8CF;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #686D76;
+  color: black;
+}
+
+/* Estilo de los iconos dentro de los botones de navegación */
+.btn-icon {
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto; /* Ajusta la altura automáticamente */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}

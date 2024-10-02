@@ -1,0 +1,128 @@
+/* Login.css */
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffebcd, #f5f5dc); /* Fondo suave */
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AFD3E2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 50%;
+    position: relative; /* Para que el logo se posicione relativo a este contenedor */
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: -75px; /* Se sale un 75% del tamaño del logo hacia arriba */
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-color: white;
+  }
+  
+  .logo {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .formularie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 10%;
+    background-color: #AFD3E2;
+
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 2px ;
+    padding-bottom: 5px;
+  }
+  
+ 
+/* Estilos para la etiqueta (label) */
+.input-label {
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y el campo de entrada */
+    margin-right: 0px; /* Espacio entre la imagen y el campo de entrada */
+    margin-top: 9px;
+  }
+  
+  /* Estilos para la imagen */
+  .input-label img {
+    width: 35px; /* Ancho de la imagen */
+    height: 35px; /* Altura de la imagen */
+    background-color: #0B60B0; /* Color de fondo de la imagen */
+    padding: 0.5px; /* Espaciado interno para que el fondo se note */
+  }
+  
+  /* Estilos para el campo de input */
+.input-field {
+  background-color: #40A2D8 !important;
+  padding: 2px; /* Espaciado interno del input */
+  border: 1px solid #ccc; /* Borde del input */
+  border-radius: 1px; /* Bordes redondeados */
+  font-size: 20px; /* Tamaño de fuente ajustado */
+  color: black;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total del elemento */
+  height: 40px; /* Ajusta la altura del input para que coincida con la imagen */
+}
+
+/* Estilos para el placeholder del input */
+.input-field::placeholder {
+    color: #FFFFFF80; /* Color del placeholder */
+}
+/* Estilos para el input cuando está enfocado */
+.input-field:focus {
+    outline: none !important; /* Quita el borde de enfoque predeterminado */
+    border-color: #007bff !important; /* Cambia el color del borde al enfocarse */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5) !important; /* Sombra al enfocarse */
+  }
+  
+  
+  button {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    cursor: pointer;
+    width: 250px;
+  }
+  
+  button:hover {
+    background-color: #201658;
+  }
+
+  
+  button:active {
+    background-color: #393178;
+  }
+  

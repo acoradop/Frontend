@@ -1,0 +1,110 @@
+.botones-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #DAD3BE;
+    padding: 20px;
+    width: 150px;
+    height: 60px;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.boton-guardar, .boton-cerrar {
+    width: 50px;
+    height: 60px;
+    background-color: #B7B597;
+    color: black;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-guardar:hover, .boton-cerrar:hover {
+    background-color: #A0937D;
+}
+
+.boton-guardar img, .boton-cerrar img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contenedor-datos-personales {
+  width: 100%;
+  height: 15px;
+  background-color: #DAD3BE;
+  margin: 20px 0;
+  font-size: 10px;
+}
+
+.contenedor-datos-personales p {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  line-height: 15px;
+}
+
+.formulario-consulta {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #F1EEDC;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grupo-input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+
+.grupo-input input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background-color: #EADBC8;
+  border-radius: 4px;
+}
+
+.area-texto {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  background-color: #EADBC8;
+  border-radius: 4px;
+}
+
+.fila-formulario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grupo-formulario {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.grupo-formulario:last-child {
+  margin-right: 0;
+}
+
+.grupo-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

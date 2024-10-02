@@ -1,0 +1,127 @@
+.pacientes-container {
+  padding: 20px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2px;
+  background-color: #DAD3BE;
+  padding: 20px;
+  width: 200px;
+  height: 80px;
+  overflow: auto;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  background-color: #B7B597;
+  color: black;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #A0937D;
+}
+
+.pacientetabla {
+  overflow-x: auto;
+}
+
+.pacientetabla table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pacientetabla th, .pacientetabla td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pacientetabla th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.pacientetabla tr:hover {
+  background-color: #f1f1f1;
+}
+
+.pacientetabla td button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B7B597;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 50px;
+  height: 50px;
+}
+
+.pacientetabla td button img {
+  margin-right: 8px;
+  width: 15px;
+  height: 15px;
+}
+
+.pacientetabla td button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .pacientetabla th, .pacientetabla td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .pacientetabla td button {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  .pacientetabla td button img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .pacientes-container {
+    padding: 10px;
+  }
+}

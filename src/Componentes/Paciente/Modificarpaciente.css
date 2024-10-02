@@ -1,0 +1,116 @@
+.boton-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #DAD3BE;
+  padding: 10px;
+  width: 150px;
+  height: 60px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.boton-guardar, .boton-cerrar {
+  width: 50px;
+  height: 60px;
+  background-color: #B7B597;
+  color: black;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-guardar img, .boton-cerrar img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.boton-guardar:hover, .boton-cerrar:hover {
+  background-color: #A0937D;
+}
+
+.seccion-datos {
+  width: 100%;
+  height: 15px;
+  background-color: #DAD3BE;
+  margin: 20px 0;
+  font-size: 10px;
+}
+
+.seccion-datos p {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  line-height: 15px;
+}
+
+.formulario-paciente {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #F1EEDC;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formulario-paciente label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  size: 12px;
+}
+
+.formulario-paciente label input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  background-color: #EADBC8;
+  border-radius: 4px;
+}
+
+.etiqueta-label {
+  display: flex; /* Mantiene la alineación adecuada */
+  align-items: center; /* Alinear verticalmente el texto y el radio button */
+}
+
+.etiqueta-radio {
+  display: flex; /* Coloca los radio buttons uno al lado del otro */
+  gap: 15px; /* Espacio entre los radio buttons */
+  margin-top: 5px; /* Espacio entre el label y los radio buttons */
+}
+
+.etiqueta-radio input[type="radio"] {
+  margin-right: 5px; /* Espacio a la derecha del radio button */
+}
+
+.fila-formulario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grupo-formulario {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.grupo-formulario:last-child {
+  margin-right: 0;
+}
+
+.grupo-input {
+  margin-bottom: 20px;
+}

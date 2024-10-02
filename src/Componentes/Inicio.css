@@ -1,0 +1,38 @@
+
+.principal
+{
+  height: 200vw;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos */
+  gap: 20px; /* Espacio entre los elementos */
+  align-items: center;
+  justify-content: center; /* Centra los elementos horizontalmente */ 
+  
+}
+
+.section {
+  flex: 1; /* Toma el espacio restante de manera equitativa */
+  background-color: #DAD3BE; /* Color de fondo para la sección */
+  padding: 20px;
+  margin: 10px; /* Espacio alrededor de la sección */
+  width: 200px;
+  height: 170px;
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle algo de profundidad */
+}
+
+.section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1.25em; /* Ajusta el tamaño de fuente a un tamaño mediano */
+  font-weight: bold; /* Hace el texto en negrita */
+  text-align: center; /* Centra el texto */
+  margin: 0; /* Elimina márgenes adicionales, opcional */
+}
+
